@@ -4,7 +4,7 @@ frontmatter_file_url_template: "/uploads/:year:/:month:"
 body_file_url_template: "/uploads/:year:/:month:"
 new_page_extension: md
 auto_deploy: true
-admin_path: 
+admin_path: asdf
 webhook_url: 
 sections: 
 version: 0.31.1
