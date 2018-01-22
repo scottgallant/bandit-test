@@ -1,0 +1,16 @@
+{{ partial "head" . }}
+	<div class="page_container">
+    {{ partial "header" . }}
+    <a id="skip" href="index.html#content" title="Skip to content" class="hidden">Skip to content</a>
+		<section id="content" role="main" class="clearfix">
+      {{ partial "sidebar" . }}
+      <div class="main_col">
+        <article id="post-4" class="post-4 page type-page status-publish hentry">
+          <div class="entry-content">
+						<img class="size-full wp-image-92 alignright" title="racoon_vert" src="{{ .Params.image }}" alt="" width="295" />
+             {{.Content}}
+          </div><!-- .entry-content -->
+        </article><!-- #post-## -->
+      </div>
+		</section><!-- #main -->
+{{ partial "footer" . }}

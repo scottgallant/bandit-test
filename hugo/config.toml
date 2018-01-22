@@ -1,0 +1,30 @@
+baseurl = "/"
+defaultContentLanguage = "en"
+destination = "../dist/"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+enableEmoji = true
+hrefTargetBlank = false
+languageCode = "en-us"
+languageLang = "en"
+relativeURLs = false
+title = "My New Hugo Site"
+[[menu.social]]
+identifier = "facebook"
+name = "facebook"
+url = "http://www.facebook.com/racoonbanditmusic"
+weight = 1
+[[menu.social]]
+identifier = "radio3"
+name = "Radio3"
+url = "http://radio3.cbc.ca/bands/Racoon-Bandit"
+weight = 3
+[[menu.social]]
+identifier = "itunes"
+name = "iTunes"
+url = "http://itunes.apple.com/ca/artist/racoon-bandit/id369504253"
+weight = 2
+[[menu.social]]
+identifier = "Twitter"
+name = "Twitter"
+url = "https://twitter.com/racoon_bandit"
+weight = 4

@@ -1,0 +1,17 @@
+<div class="sidebar">
+	<nav id="access" role="navigation">
+		<div class="menu-main-nav-container">
+			<ul id="menu-main-nav" class="main_nav clearfix">
+				{{ $currentNode := . }}
+				{{ range .Site.Menus.main }}
+				<li class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} current{{end}}" id="{{ lower .Name }}"> <a href="{{.URL}}">{{ .Name }}</a></li>
+				{{ end }}
+			</ul>
+		</div>
+	</nav>
+	<ul class="nav links clearfix">
+		{{ range .Site.Menus.social }}
+		<li> <a href="{{.URL}}">{{ .Name }}</a></li>
+		{{ end }}
+	</ul>
+</div>
