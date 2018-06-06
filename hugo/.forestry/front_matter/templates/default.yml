@@ -1,11 +1,6 @@
 ---
-pages:
-- store.md
-- press.md
-- _index.md
-- download.md
-- about-us.md
 hide_body: false
+is_partial: false
 fields:
 - name: title
   label: Title
@@ -32,3 +27,9 @@ fields:
   type: boolean
   hidden: false
   default: true
+pages:
+- about-us.md
+- download.md
+- _index.md
+- press.md
+- store.md
